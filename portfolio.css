@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* Logo */
+#logo {
+    color: #4a90e2; /* Soft Blue */
+    font-size: 48px;
+    font-weight: 800;
+    margin-left: 5%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+.navbar {
+    background-image: linear-gradient(to bottom right, #2c3e50, #4a6277); /* Deep Blue Gradient */
+    border-bottom: 2px solid #4a90e2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Color */
+.icon-color {
+    background-color: #4a90e2;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Home Section */
+.homesection {
+    background-image: linear-gradient(to bottom right, #1a1a1d, #2c3e50); /* Dark Gray Gradient */
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navigation Items */
+.nav-item {
+    font-size: 18px;
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.nav-item:hover {
+    background: linear-gradient(to bottom right, #4a90e2, #729dcf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.navbar-nav a.active,
+.nav-item:hover {
+    background: linear-gradient(to bottom right, #4a90e2, #729dcf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Button */
+.button {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #4a90e2;
+    width: 160px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background: linear-gradient(to right, #3a78c2, #4a90e2);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.btn {
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    background-color: #4a90e2;
+    width: 80px;
+    height: 35px;
+    border-width: 0px;
+    border-radius: 6px;
+    margin-left: 35px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom right, #3a78c2, #4a90e2);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Title */
+.title {
+    font-size: 40px;
+    color: #4a90e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Name */
+.name {
+    color: #4a90e2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Image */
+.img {
+    margin-top: 10%;
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Text */
+.text {
+    margin-top: 10%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Icon */
+.icon1 {
+    font-size: 25px;
+    color: white;
+}
+
+/* Icon Container */
+.icon-container {
+    background-color: #4a90e2;
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    margin: 6px;
+    padding: 20px;
+    border-width: 2px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    transition: all 0.3s ease;
+}
+
+.icon-container:hover {
+    transform: scale(1.1);
+}
+
+/* About Me Section */
+.aboutmesection {
+    background-image: radial-gradient(#1a1a1d, #2c3e50);
+}
+
+/* Heading 1 */
+.heading1 {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Image 2 */
+.img2 {
+    margin-top: 15%;
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    border: 5px solid #4a90e2;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+/* Paragraph */
+.paragraph {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Skills Section */
+.skills-section {
+    background-image: linear-gradient(to left, #1a1a1d, #2c3e50);
+    height: 80vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading 3 */
+.heading3 {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 13%;
+}
+
+/* Skills Card */
+.skills-card {
+    background-color: #3a3f44;
+    border-radius: 20px;
+    border-width: 0px;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.skills-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Skills Card Image */
+.skills-card-image {
+    width: 75px;
+    height: 75px;
+}
+
+/* Skills Card Title */
+.skills-card-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* Projects Section */
+.projects-section {
+    background-image: radial-gradient(#1a1a1d, #2c3e50);
+}
+
+/* Card Container */
+.card-container {
+    background-color: #3a3f44;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+/* Image 3 */
+.img3 {
+    width: 100%;
+}
+
+/* P */
+.p {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+/* Card Heading */
+.card-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Para */
+.para {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: white;
+}
+
+/* Projects Card Link */
+.projects-card-link {
+    color: #4a90e2;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Services Section */
+.services-section {
+    background-image: linear-gradient(to right, #1a1a1d, #2c3e50);
+}
+
+/* H2 */
+.h2 {
+    font-family: "Roboto";
+    font-size: 39px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Card Container */
+.card-container {
+    background-color: #3a3f44;
+    border-radius: 20px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+}
+
+/* Image 4 */
+.img4 {
+    height: 65px;
+    width: 65px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-image: radial-gradient(#1a1a1d, #2c3e50);
+}
+
+/* Icon */
+.icon {
+    color: #4a90e2;
+    font-size: 18px;
+}
+
+/* Para 1 */
+.para1 {
+    font-family: "Roboto";
+    color: white;
+    font-size: 14px;
+}
+
+/* Heading 2 */
+.heading2 {
+    font-size: 20px;
+    color: #4a90e2;
+    font-weight: 500;
+}
